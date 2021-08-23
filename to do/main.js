@@ -4,6 +4,7 @@ var inputvalue=document.getElementById('input');
 var update=document.getElementById('update');
 var remove=document.getElementById('remove');
 var currentvalue='';
+
 inputvalue.addEventListener('input',function(e)
 {
     currentvalue=e.target.value
